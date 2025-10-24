@@ -56,7 +56,7 @@ if (isset($_SESSION['role'], $_SESSION['id']) && $_SESSION['role'] === "employee
 		.form-control, .form-select {
 			border-radius: 10px;
 			background-color: rgba(255, 255, 255, 0.2);
-			color: #fff;
+			color: #131212ff;
 			border: none;
 		}
 		.form-control::placeholder {
