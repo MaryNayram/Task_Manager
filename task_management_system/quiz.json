@@ -1,0 +1,24 @@
+[
+  {
+    "question": "What is the safest way to handle a suspicious email?",
+    "options": [
+      "Click the link to verify",
+      "Forward it to your team",
+      "Report it via the incident form",
+      "Delete it silently"
+    ],
+    "answer": 2,
+    "explanation": "Reporting ensures the security team can investigate and prevent further risk."
+  },
+  {
+    "question": "Which of these is a cyber incident?",
+    "options": [
+      "A system update",
+      "A patient forgetting their password",
+      "A nurse logging out late",
+      "Unauthorized access to patient records"
+    ],
+    "answer": 3,
+    "explanation": "Unauthorized access is a breach of data security."
+  }
+]

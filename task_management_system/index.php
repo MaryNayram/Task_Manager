@@ -128,14 +128,20 @@ if ($_SESSION['role'] === "admin") {
         <a href="tasks.php?filter=pending" class="dashboard-card"><i class="fas fa-hourglass-start"></i><h6>Pending</h6><span><?= $pending ?> Tasks</span></a>
         <a href="tasks.php?filter=in_progress" class="dashboard-card"><i class="fas fa-spinner"></i><h6>In Progress</h6><span><?= $in_progress ?> Tasks</span></a>
         <a href="tasks.php?filter=completed" class="dashboard-card"><i class="fas fa-check-circle"></i><h6>Completed</h6><span><?= $completed ?> Tasks</span></a>
+		<a href="admin_generate_quiz.php" class="dashboard-card">
+  <i class="fas fa-magic"></i>
+  <h6>Generate Quiz</h6>
+  <span>AI-Powered</span>
+</a>
     <?php } else { ?>
-        <a href="my_task.php" class="dashboard-card"><i class="fas fa-tasks"></i><h6>My Tasks</h6><span><?= $num_my_task ?> Total</span></a>
-        <a href="my_task.php?filter=overdue" class="dashboard-card"><i class="fas fa-calendar-times"></i><h6>Overdue</h6><span><?= $overdue_task ?> Tasks</span></a>
-        <a href="my_task.php?filter=no_deadline" class="dashboard-card"><i class="fas fa-calendar-minus"></i><h6>No Deadline</h6><span><?= $nodeadline_task ?> Tasks</span></a>
-        <a href="my_task.php?filter=pending" class="dashboard-card"><i class="fas fa-hourglass-start"></i><h6>Pending</h6><span><?= $pending ?> Tasks</span></a>
-        <a href="my_task.php?filter=in_progress" class="dashboard-card"><i class="fas fa-spinner"></i><h6>In Progress</h6><span><?= $in_progress ?> Tasks</span></a>
-        <a href="my_task.php?filter=completed" class="dashboard-card"><i class="fas fa-check-circle"></i><h6>Completed</h6><span><?= $completed ?> Tasks</span></a>
-    <?php } ?>
+    <a href="my_task.php" class="dashboard-card"><i class="fas fa-tasks"></i><h6>My Tasks</h6><span><?= $num_my_task ?> Total</span></a>
+    <a href="my_task.php?filter=overdue" class="dashboard-card"><i class="fas fa-calendar-times"></i><h6>Overdue</h6><span><?= $overdue_task ?> Tasks</span></a>
+    <a href="my_task.php?filter=no_deadline" class="dashboard-card"><i class="fas fa-calendar-minus"></i><h6>No Deadline</h6><span><?= $nodeadline_task ?> Tasks</span></a>
+    <a href="my_task.php?filter=pending" class="dashboard-card"><i class="fas fa-hourglass-start"></i><h6>Pending</h6><span><?= $pending ?> Tasks</span></a>
+    <a href="my_task.php?filter=in_progress" class="dashboard-card"><i class="fas fa-spinner"></i><h6>In Progress</h6><span><?= $in_progress ?> Tasks</span></a>
+    <a href="my_task.php?filter=completed" class="dashboard-card"><i class="fas fa-check-circle"></i><h6>Completed</h6><span><?= $completed ?> Tasks</span></a>
+    <a href="incident_quiz.php" class="dashboard-card"><i class="fas fa-question-circle"></i><h6>Take Quiz</h6><span>Cyber Safety</span></a>
+<?php } ?>
 </div>
 </section>
 </div>
